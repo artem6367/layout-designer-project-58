@@ -110,3 +110,27 @@ h3 {
 .w-100 {
   width: 100%;
 }
+
+#preview-image {
+  position: relative;
+  padding-bottom: 417px;
+  text-align: center;
+}
+
+.preview-platform {
+  position: absolute;
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  width: 919px;
+  height: 517px;
+
+  margin: 0 auto;
+
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.preview-img {
+  width: 100%;
+}
