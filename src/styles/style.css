@@ -134,3 +134,47 @@ h3 {
 .preview-img {
   width: 100%;
 }
+
+#navigation {
+  padding-top: 100px;
+  background-color: var(--primary-dark);
+}
+
+#navigation h2 {
+  font-size: 52px;
+}
+
+.text-white {
+  color: var(--white);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 20px;
+  row-gap: 13px;
+}
+
+.card {
+  display: block;
+  padding: 24px;
+  background-color: var(--white);
+  text-decoration: none;
+  color: inherit;
+}
+
+.card:hover {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.card:hover .text-primary {
+  color: var(--white);
+}
+
+.card-number {
+  margin-bottom: 40px;
+  font-family: Neucha;
+  font-size: 64px;
+  line-height: 1;
+}
