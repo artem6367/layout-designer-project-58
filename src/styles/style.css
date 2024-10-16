@@ -56,11 +56,16 @@ h3 {
   padding: 100px 0;
 }
 
+.shadow {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
 #header {
   position: relative;
 }
 
-#header::before {
+#header::before,
+#ikea-effect::before {
    content: '';
    position: absolute;
    top: 0;
@@ -127,8 +132,6 @@ h3 {
   height: 517px;
 
   margin: 0 auto;
-
-  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .preview-img {
@@ -177,4 +180,50 @@ h3 {
   font-family: Neucha;
   font-size: 64px;
   line-height: 1;
+}
+
+#ikea-effect {
+  position: relative;
+  background-color: var(--light);
+}
+
+.row {
+  display: flex;
+  gap: 30px;
+}
+
+.ikea-top {
+  font-family: Neucha;
+  color: var(--dark-trans);
+  font-size: 24px;
+}
+
+.ikea-header {
+  font-size: 60px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.ikea-description {
+  font-family: Neucha;
+  font-size: 34px;
+  line-height: 40.8px;
+}
+
+.ikea-how {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  padding: 5px 10px;
+  background-color: var(--brown);
+
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16.8px;
+  color: var(--white);
+  text-transform: uppercase;
+}
+
+.ikea-col {
+  width: 50%;
+  line-height: 25.6px;
 }
