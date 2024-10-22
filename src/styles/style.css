@@ -72,13 +72,15 @@ h3 {
 
 #header,
 #ikea-effect,
-#premature-optimization {
+#premature-optimization,
+#distortion-of-novelty {
   position: relative;
 }
 
 #header::before,
 #ikea-effect::before,
-#premature-optimization::before {
+#premature-optimization::before,
+#distortion-of-novelty::before {
   content: '';
   position: absolute;
   top: 0;
