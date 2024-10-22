@@ -249,3 +249,62 @@ h3 {
   width: 50%;
   line-height: 25.6px;
 }
+
+.dark {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0 55px;
+  height: 190px;
+  background-color: var(--primary-dark);
+  color: var(--white);
+}
+
+.dark form label {
+  font-size: 18px;
+}
+
+.dark form .form-group {
+  display: flex;
+
+}
+
+.dark form input {
+  max-height: 50px;
+  flex-grow: 1;
+  padding: 15px;
+  border: none;
+}
+
+.dark form button {
+  height: 50px;
+  width: 70px;
+  background-color: var(--primary);
+  border: none;
+}
+
+.dark form button:hover {
+  background-color: #ea7600;
+}
+
+.dark form button::before {
+  content: url(/images/send.svg);
+}
+
+.dark form .form-text {
+  font-size: 12px;
+}
+
+.dark form .form-text a {
+  color: var(--white);
+}
+
+.contacts {
+  padding-top: 60px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.mb-1 {
+  margin-bottom: 16px;
+}
