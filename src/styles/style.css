@@ -1,6 +1,6 @@
 /** CSS STYLE **/
 :root {
-  --white: #fff;
+  --white: #ffffff;
   --white-trans: #d7ccc0;
   --light: #f5f4f0;
   --primary: #fe8a02;
@@ -49,6 +49,16 @@ h3 {
   font-size: 34px;
 }
 
+.bg-light {
+  background-color: var(--light);
+  color: inherit;
+}
+
+.bg-brown {
+  background-color: var(--brown);
+  color: var(--white);
+}
+
 .container {
   position: relative;
   width: 1110px;
@@ -60,23 +70,26 @@ h3 {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
-#header {
+#header,
+#ikea-effect,
+#premature-optimization {
   position: relative;
 }
 
 #header::before,
-#ikea-effect::before {
-   content: '';
-   position: absolute;
-   top: 0;
-   left: 0;
-   display: block;
-   width: 100%;
-   height: 100%;
-   background-image: url('../images/background.png');
-   background-repeat: no-repeat;
-   background-size: cover;
-   opacity: .1;
+#ikea-effect::before,
+#premature-optimization::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: url('../images/background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .1;
 }
 
 #header h1 {
@@ -182,48 +195,51 @@ h3 {
   line-height: 1;
 }
 
-#ikea-effect {
-  position: relative;
-  background-color: var(--light);
-}
-
 .row {
   display: flex;
   gap: 30px;
 }
 
-.ikea-top {
+.top {
   font-family: Neucha;
-  color: var(--dark-trans);
   font-size: 24px;
 }
 
-.ikea-header {
-  font-size: 60px;
+.bg-light .top {
+  color: var(--dark-trans);
+}
+
+.bg-brown .top {
+  color: var(--white-trans);
+}
+
+.header {
   margin-top: 0;
   margin-bottom: 30px;
 }
 
-.ikea-description {
-  font-family: Neucha;
-  font-size: 34px;
-  line-height: 40.8px;
-}
-
-.ikea-how {
+.how {
   margin-top: 100px;
   margin-bottom: 20px;
   padding: 5px 10px;
-  background-color: var(--brown);
 
   font-size: 14px;
   font-weight: 700;
   line-height: 16.8px;
-  color: var(--white);
   text-transform: uppercase;
 }
 
-.ikea-col {
+.bg-light .how {
+  background-color: var(--brown);
+  color: var(--white);
+}
+
+.bg-brown .how {
+  background-color: var(--white);
+  color: var(--primary-dark);
+}
+
+.col {
   width: 50%;
   line-height: 25.6px;
 }
