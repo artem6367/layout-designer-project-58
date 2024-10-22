@@ -73,14 +73,16 @@ h3 {
 #header,
 #ikea-effect,
 #premature-optimization,
-#distortion-of-novelty {
+#distortion-of-novelty,
+#hyperbolic-depreciation {
   position: relative;
 }
 
 #header::before,
 #ikea-effect::before,
 #premature-optimization::before,
-#distortion-of-novelty::before {
+#distortion-of-novelty::before,
+#hyperbolic-depreciation::before {
   content: '';
   position: absolute;
   top: 0;
