@@ -74,7 +74,8 @@ h3 {
 #ikea-effect,
 #premature-optimization,
 #distortion-of-novelty,
-#hyperbolic-depreciation {
+#hyperbolic-depreciation,
+#errors-in-planning {
   position: relative;
 }
 
@@ -82,7 +83,8 @@ h3 {
 #ikea-effect::before,
 #premature-optimization::before,
 #distortion-of-novelty::before,
-#hyperbolic-depreciation::before {
+#hyperbolic-depreciation::before,
+#errors-in-planning::before {
   content: '';
   position: absolute;
   top: 0;
