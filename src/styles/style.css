@@ -18,7 +18,6 @@
 }
 
 html {
-
   font-weight: 400;
   font-family: OpenSans, serif;
   font-size: 16px;
@@ -212,6 +211,10 @@ pre {
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
+.video img {
+  height: 569px;
+}
+
 .back-video {
   background-color: #fff;
 }
@@ -306,10 +309,6 @@ a.card:hover {
 
 .side-hyberb {
   margin-right: 10px;
-}
-
-.side-footer {
-  margin-left: 45px;
 }
 
 .explain-ikea {
@@ -427,7 +426,7 @@ a.card:hover {
   display: inline-block;
   vertical-align: middle;
   width: 70px;
-  height: 50px;
+  height: 47.8px;
   border: none;
   margin-left: -6px;
   background-color: #fe8a02;
