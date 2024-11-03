@@ -11,7 +11,7 @@
 </head>
 
 <body>
-  <header id="header">
+  <header id="header" class="bg-light">
     <div class="container">
       <h1><span class="text-primary">Когнитивные<br>искажения</span><br>в программировании</h1>
       <img src="images/main.png" alt="Главная картинка" class="main-img">
@@ -26,25 +26,26 @@
         <div class="w-100">
           <p>Вместе они формируют что-то вроде замкнутого цикла, и это может привести к длительной потере
             продуктивности, багам и бесконечному разочарованию.</p>
-          <p>Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем
+          <p class="mb-40">Если мы сможем минимизировать воздействие одного или нескольких из этих факторов, то сможем
             сломать и
             цикл, а остатки нейтрализовать.</p>
-          <p>
-            <a href="#navigation" class="btn btn-primary">подробнее</a>
-          </p>
+          <a href="#navigation" class="btn btn-primary">подробнее</a>
         </div>
       </div>
     </div>
   </header>
   <main>
     <section id="preview-image">
-      <h2>Что же такое,<br><span class="text-primary">когнитивные искажения?</span></h2>
-      <p>Что такое когнитивные искажения. Petrovna Channel</p>
-      <div class="preview-platform shadow">
-        <a href="https://youtu.be/jie9AizBqss?si=mwSNeYrbsSFsZ215">
-          <img src="images/preview.png" alt="Превью" class="preview-img">
-        </a>
+      <div class="container">
+        <h2 class="header">Что же такое,<br><span class="text-primary">когнитивные искажения?</span></h2>
+        <p class="preview-text">Что такое когнитивные искажения. Petrovna Channel</p>
+        <div class="preview-platform shadow">
+          <a href="https://youtu.be/jie9AizBqss?si=mwSNeYrbsSFsZ215">
+            <img src="images/preview.png" alt="Превью" class="preview-img">
+          </a>
+        </div>
       </div>
+      <div class="preview-rectangle"></div>
     </section>
 
     <section id="navigation">
@@ -52,8 +53,7 @@
         <div class="grid">
           <div>
             <h2 class="text-white"><span class="text-primary">5 когнитивных искажений</span> о существовании которых
-              стоит
-              помнить</h2>
+              стоит помнить</h2>
           </div>
           <a class="card" href="#ikea-effect">
             <div class="card-number">1</div>
@@ -90,7 +90,7 @@
       <div class="container">
         <div class="row">
           <div>
-            <img src="images/1.png" alt="Эффект ИКЕА" class="shadow">
+            <img class="shadow" src="images/1.png" alt="Эффект ИКЕА">
           </div>
           <div>
             <div class="top">Когнитивные искажения</div>
